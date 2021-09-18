@@ -11,5 +11,4 @@ class PolyTreeNode
     
   end
   
- 
 end
