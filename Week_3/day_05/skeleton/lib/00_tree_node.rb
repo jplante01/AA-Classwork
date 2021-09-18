@@ -8,8 +8,8 @@ class PolyTreeNode
   end
 
   def parent=
-    # self.parent = self.new
+    
   end
   
-  # def c
+ 
 end
