@@ -6,7 +6,7 @@ class PolyTreeNode
     @parent = nil
     @children = []
   end
-
+# sdsdsd
   def parent=
     
   end
