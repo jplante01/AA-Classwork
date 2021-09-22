@@ -26,7 +26,7 @@ class Board
 
   def initialize
     @grid = Array.new(8){Array.new(8, nil)}
-    
+    @grid.populate
   end
   
   def [](pos)
@@ -40,24 +40,52 @@ class Board
   end
 # iterate through setup and then palce those pieces, then add pawns, then add the nulls. :)
   def populate
-    debugger
+    #debugger
     @grid.each_with_index do |subarr, row|  
       subarr.each_with_index do |el, col| #subarr == :B
         if row == 0 
-          @grid[row, col] = TOP_ROW[col]
+          @grid[row][col] = TOP_ROW[col]
         elsif row == 1 
-          @grid[row,col] = [:pawn, :B]
+          @grid[row][col] = [:pawn, :B]
         elsif row == 6
-          @grid[row, col] = [:pawn, :W]
+          @grid[row][col] = [:pawn, :W]
         elsif row == 7
-          @grid[row, col] = BOT_ROW[col]
+          @grid[row][col] = BOT_ROW[col]
         elsif row >= 2 && row <= 5
-          @grid[row, col] = [:null]
+          @grid[row][col] = [:null]
         end
-        
       end
     end
   end
+
+  def move_piece(start_pos, end_pos) # need piece color later board.move_piece([0,2],[4,5])
+    if start_pos == end_pos
+      raise 'invalid move'
+    end
+
+    if @grid[start_pos] == [:null]
+      raise 'No piece here :('
+    end
+
+    if @grid[end_pos][1] != @grid[start_pos][1] # not the same color as our current piece
+      raise 'please dont eat your team'
+    end
+
+    if [start_pos].any?{|ele| ele > 7} && [end_pos].any?{|ele| ele > 7}
+      raise 'Cannot move out of bounds'
+    end
+
+
+  end
+
+  # not same team / color (:B or :W) DONE
+
+  # not oob DONE
+  # not same as start pos DONE
+  # start pos not nil DONE
+  --------
+  # move the object to the new pos (remove from old pos)
+  # remove piece if opposite team(kill piece)
 
 end
 
