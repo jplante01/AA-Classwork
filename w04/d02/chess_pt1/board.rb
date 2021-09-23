@@ -89,6 +89,7 @@ class Board
   # move the object to the new pos (remove from old pos)
   # remove piece if opposite team(kill piece)
 
+
 end
 
 b = Board.new
