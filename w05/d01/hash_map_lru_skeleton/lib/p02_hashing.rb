@@ -26,6 +26,10 @@ class Hash
   # This returns 0 because rspec will break if it returns nil
   # Make sure to implement an actual Hash#hash method
   def hash
-    p 0
+   hash_sum = 0
+   self.each do |k, v|
+    hash_sum += k.hash + v.hash
+   end
+  hash_sum ^ 9999 
   end
 end
