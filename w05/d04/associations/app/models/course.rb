@@ -14,6 +14,8 @@ class Course < ApplicationRecord
     primary_key: :id,
     foreign_key: :course_id,
     class_name: :Enrollment
+
+    
 end
 
 # class Strike < ApplicationRecord
