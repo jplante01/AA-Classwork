@@ -2,3 +2,7 @@
   ↳ bin/rails:9
   [1m[35m (55.3ms)[0m  [1m[35mCREATE DATABASE "demo_project_postg_test" ENCODING = 'unicode'[0m
   ↳ bin/rails:9
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE DATABASE "demo_project_postg_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE DATABASE "demo_project_postg_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
