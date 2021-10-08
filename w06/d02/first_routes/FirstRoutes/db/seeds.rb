@@ -6,40 +6,34 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-
+# rake db:reset
 User.destroy_all
-Artwork.delete_all
-ArtworkShare.delete_all
+Artwork.destroy_all
+ArtworkShare.destroy_all
 
 alex = User.create!(
-  id: 1,
   username: "Alex"
 )
 
 jeff = User.create(
-  id: 2,
   username: "Jeff"
 )
 
 matt = User.create(
-  id: 3,
   username: "Matt"
 )
 
 greg = User.create(
-  id: 4,
   username: "Greg"
 )
 
 alex_2 = Artwork.create(
-  id: 1,
   title: "Alex the great",
   img_url: "asdf",
   artist_id: alex.id
 )
 
 Artwork.create(
-  id: 2,
   title: "asdf",
   img_url: "ggggg",
   artist_id: alex.id
