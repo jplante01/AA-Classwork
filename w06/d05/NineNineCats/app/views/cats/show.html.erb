@@ -1,0 +1,26 @@
+<h1>Here is a cat:</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2"><%= @cat.name %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Birthday</td>
+      <td><%= @cat.birth_date %></td>
+    </tr>
+    <tr>
+      <td>Colors</td>
+      <td><%= @cat.colors %></td>
+    </tr>
+    <tr>
+      <td>Sex</td>
+      <td><%= @cat.sex %></td>
+    </tr>
+    <p>
+     <%= @cat.description %> 
+    </p>
+  </tbody>
+</table>

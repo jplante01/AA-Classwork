@@ -1,8 +1,8 @@
 class UsersController < ApplicationController
   
   def index
-    user = User.all
-    render json: user
+    @users = User.all
+    render :index
   end
 
   def create
@@ -15,8 +15,8 @@ class UsersController < ApplicationController
   end
 
   def show
-    user = User.find(params[:id])
-    render json: user
+    @user = User.find(params[:id])
+    render :show
   end
 
   def update

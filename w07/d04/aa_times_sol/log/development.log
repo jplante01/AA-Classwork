@@ -1,0 +1,63 @@
+Started GET "/" for ::1 at 2020-10-08 16:35:16 -0700
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/carlosgarciajr/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_sections_sidebar.html.erb (0.2ms)
+  Rendered shared/_gear_dropdown.html.erb (0.3ms)
+  Rendered shared/_main_nav.html.erb (6.0ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (3.6ms)
+  Rendered shared/_search_modal.html.erb (0.0ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (25.9ms)
+Completed 200 OK in 509ms (Views: 506.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a933c0e16e17878de413d4f13d4d2090651171a7e8db5cc950faf6eecdcf7dbf.css?body=1" for ::1 at 2020-10-08 16:35:16 -0700
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2020-10-08 16:35:16 -0700
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2020-10-08 16:35:16 -0700
+Started GET "/assets/components/modal.self-52188644dbb47def5ee35ae02e69eb567ca9b664472357a8a5789dd39032a265.js?body=1" for ::1 at 2020-10-08 16:35:16 -0700
+Started GET "/assets/components/sidebar.self-2a1277f850a6fa21e1a974ef5152f177ac05516477d5081d593bb137b3d6808b.js?body=1" for ::1 at 2020-10-08 16:35:16 -0700
+Started GET "/assets/new_office.jpg" for ::1 at 2020-10-08 16:35:16 -0700
+Started GET "/assets/application.self-f571b9db02bf4ed04c38a6a29072ac382f7d4f47db1fab9817aeadb0d8665235.js?body=1" for ::1 at 2020-10-08 16:35:16 -0700
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-10-08 16:35:16 -0700
+Started GET "/" for ::1 at 2020-10-12 13:47:12 -0700
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/carlosgarciajr/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_sections_sidebar.html.erb (0.4ms)
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (8.4ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (3.1ms)
+  Rendered shared/_search_modal.html.erb (0.0ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (33.4ms)
+Completed 200 OK in 474ms (Views: 468.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-343c1d0fc0057f1178bd8591ec1c5a78c9a06e80808bfc14d8094c6c2473edf3.css?body=1" for ::1 at 2020-10-12 13:47:13 -0700
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2020-10-12 13:47:13 -0700
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-10-12 13:47:13 -0700
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2020-10-12 13:47:13 -0700
+Started GET "/assets/new_office.jpg" for ::1 at 2020-10-12 13:47:13 -0700
+Started GET "/" for ::1 at 2020-10-12 13:50:06 -0700
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/carlosgarciajr/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_sections_sidebar.html.erb (0.2ms)
+  Rendered shared/_gear_dropdown.html.erb (0.3ms)
+  Rendered shared/_main_nav.html.erb (5.5ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (3.4ms)
+  Rendered shared/_search_modal.html.erb (0.0ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (24.2ms)
+Completed 200 OK in 205ms (Views: 201.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/new_office.jpg" for ::1 at 2020-10-12 13:50:06 -0700
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2020-10-12 13:50:06 -0700
